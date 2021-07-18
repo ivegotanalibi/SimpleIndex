@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+background-color: #222222;
+color: #e4e4e4;
+font-weight: 100;
+font-family:  'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color:  #e4e4e4;
+    letter-spacing: -1.5;
+
+}
+
+.card{
+    background-color: #044343;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4; 
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.skill-set span{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 1opx;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 100;
+
+}
+.button-wrapper{
+    text-align: center;
+    width: 20px;
+}
+.button-wrapper button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #e4e4e4;
+    font-size: 20px;
+    color: blue;
+    border: none;
+
+}
+.button-wrapper button.hover{
+  box-shadow: 24px 89px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 24px 89px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 24px 89px 5px 0px rgba(0,0,0,0.75);
+
+}
+#cards-holder{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+
+}
+
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+#asidewrapper{
+    flex-basis: 40%;
+}
+
+form input{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+form textarea{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+}
+#wrapper{
+    display: flex;
+}
+aside{
+    flex:3;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.input-wrapper{
+    margin-bottom: 20px;
+}
+
+.input-wrapper input{
+    height: 50px;
+}
+.input-wrapper textarea{
+    height: 140px;
+}
+.input-wrapper button{
+   width: 100%;
+    display: block;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#044343;
+    color: #fff;
+    
+}
+
+.input-wrapper button:hover{
+    color: greenyellow;
+}
+
+
+
